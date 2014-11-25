@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a11736-b3ed-4fc5-a5aa-250898a680ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayValidator.php" afterPath="$PROJECT_DIR$/src/ArrayValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ArrayValidatorTest.php" afterPath="$PROJECT_DIR$/tests/ArrayValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BooleanValidator.php" afterPath="$PROJECT_DIR$/src/BooleanValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BooleanValidatorTest.php" afterPath="$PROJECT_DIR$/tests/BooleanValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DateTimeValidator.php" afterPath="$PROJECT_DIR$/src/DateTimeValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/DateTimeValidatorTest.php" afterPath="$PROJECT_DIR$/tests/DateTimeValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IntegerValidator.php" afterPath="$PROJECT_DIR$/src/IntegerValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/IntegerValidatorTest.php" afterPath="$PROJECT_DIR$/tests/IntegerValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringValidator.php" afterPath="$PROJECT_DIR$/src/StringValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/StringValidatorTest.php" afterPath="$PROJECT_DIR$/tests/StringValidatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.scrutinizer.yml" afterPath="$PROJECT_DIR$/.scrutinizer.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="td_php.iws" />
@@ -37,7 +27,18 @@
     <favorites_list name="td_php" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".scrutinizer.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.scrutinizer.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41295546" vertical-offset="0" max-vertical-offset="741">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -52,7 +53,6 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/.scrutinizer.yml" />
         <option value="$PROJECT_DIR$/tests/ArrayValidatorTest.php" />
         <option value="$PROJECT_DIR$/tests/StringValidatorTest.php" />
         <option value="$PROJECT_DIR$/tests/IntegerValidatorTest.php" />
@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/BooleanValidator.php" />
         <option value="$PROJECT_DIR$/src/DateTimeValidator.php" />
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
+        <option value="$PROJECT_DIR$/.scrutinizer.yml" />
       </list>
     </option>
   </component>
@@ -167,12 +168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1416940347421</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update 2">
+      <created>1416946775636</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1416946775636</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="283" y="57" width="1616" height="897" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -181,7 +188,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496871" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -212,7 +219,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="update 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 1" />
+    <MESSAGE value="update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -379,14 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.scrutinizer.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6653171" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3211876" vertical-offset="0" max-vertical-offset="741">
@@ -426,6 +426,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scrutinizer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41295546" vertical-offset="0" max-vertical-offset="741">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
