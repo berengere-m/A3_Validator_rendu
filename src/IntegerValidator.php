@@ -23,8 +23,7 @@ class IntegerValidator
      *
      * @throws \Exception
      */
-    public static function equal($a, $b)
-    {
+    public static function equal($a, $b) {
         if(!is_int($a) || !is_int($b))
             throw new \Exception('The two parameters need to be an integer');
 
@@ -39,8 +38,7 @@ class IntegerValidator
      *
      * @throws \Exception
      */
-    public static function superior($a, $b)
-    {
+    public static function superior($a, $b) {
         if(!is_int($a) || !is_int($b))
             throw new \Exception('The two parameters need to be an integer');
 
@@ -55,8 +53,7 @@ class IntegerValidator
      *
      * @throws \Exception
      */
-    public static function inferior($a, $b)
-    {
+    public static function inferior($a, $b) {
         if(!is_int($a) || !is_int($b))
             throw new \Exception('The two parameters need to be an integer');
 
@@ -71,12 +68,11 @@ class IntegerValidator
      * @return bool
      * @throws \Exception<
      */
-    public static function between($int, $min, $max)
-    {
+    public static function between($int, $min, $max) {
         if(!is_int($int) || !is_int($min) || !is_int($max))
             throw new \Exception('The three parameters need to be integer');
 
-        return ($int <= $max && $int >= $min) ?  true : false;
+        return ($int <= $max && $int >= $min) ? true : false;
     }
 
     /**
@@ -86,8 +82,7 @@ class IntegerValidator
      *
      * @throws \Exception
      */
-    public static function negative($int)
-    {
+    public static function negative($int) {
         if(!is_int($int))
             throw new \Exception('The parameter need to be an integer');
 
@@ -101,12 +96,10 @@ class IntegerValidator
      *
      * @throws \Exception
      */
-    public static function positive($int)
-    {
+    public static function positive($int) {
         if(!is_int($int))
             throw new \Exception('The parameter need to be an integer');
 
-        return ($int >= 0) ?  true : false;
+        return ($int >= 0) ? true : false;
     }
-
 }

@@ -15,11 +15,11 @@ namespace baybi\Validator;
 class ArrayValidator
 {
 
-    const LENGTH_EQUAL = 1;
-    const LENGTH_INFERIOR = 2;
-    const LENGTH_SUPERIOR = 3;
-    const LENGTH_INFERIOR_OR_EQUAL = 4;
-    const LENGTH_SUPERIOR_OR_EQUAL = 5;
+    const LENGTH_EQUAL              = 1;
+    const LENGTH_INFERIOR           = 2;
+    const LENGTH_SUPERIOR           = 3;
+    const LENGTH_INFERIOR_OR_EQUAL  = 4;
+    const LENGTH_SUPERIOR_OR_EQUAL  = 5;
 
     /**
      * @param array $array
@@ -28,8 +28,7 @@ class ArrayValidator
      *
      * @throws \Exception
      */
-    public static function isEmpty($array)
-    {
+    public static function isEmpty($array) {
         if(!is_array($array))
             throw new \Exception('The parameter need to be a array');
 
@@ -45,8 +44,7 @@ class ArrayValidator
      *
      * @throws \Exception
      */
-    public static function compare($array, $comparator, $integer)
-    {
+    public static function compare($array, $comparator, $integer) {
         if(!is_array($array) || !is_int($integer))
             throw new \Exception('Invalid format');
 
@@ -98,12 +96,11 @@ class ArrayValidator
      *
      * @throws \Exception
      */
-    public static function numberElementsBetween($array, $min, $max)
-    {
+    public static function numberElementsBetween($array, $min, $max) {
         if(!is_array($array) || !is_int($min) || !is_int($max))
             throw new \Exception('The first parameter need to be a array');
 
-        return ( count($array) >= $min &&  count($array) <= $max) ? true : false;
+        return ( count($array) >= $min && count($array) <= $max) ? true : false;
     }
 
     /**
@@ -114,8 +111,7 @@ class ArrayValidator
      *
      * @throws \Exception
      */
-    public static function keyExists($array, $key)
-    {
+    public static function keyExists($array, $key) {
         if(!is_array($array) || !is_string($key))
             throw new \Exception('Invalid parameter');
 
@@ -130,12 +126,10 @@ class ArrayValidator
      *
      * @throws \Exception
      */
-    public static function valueExists($array, $value)
-    {
+    public static function valueExists($array, $value) {
         if(!is_array($array) || !is_string($value))
             throw new \Exception('Invalid parameter');
 
         return (in_array($value, $array)) ? true : false;
     }
-
 }

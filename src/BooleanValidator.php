@@ -22,8 +22,7 @@ class BooleanValidator
      *
      * @throws \Exception
      */
-    public static function isTrue($boolean)
-    {
+    public static function isTrue($boolean) {
         if(!is_bool($boolean))
             throw new \Exception('The parameter need to be a boolean');
 
@@ -38,12 +37,10 @@ class BooleanValidator
      *
      * @throws \Exception
      */
-    public static function isFalse($boolean)
-    {
+    public static function isFalse($boolean) {
         if(!is_bool($boolean))
             throw new \Exception('The parameter need to be a boolean');
 
         return (!$boolean) ? true : false;
     }
-
 }

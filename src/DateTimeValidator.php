@@ -20,8 +20,7 @@ class DateTimeValidator
      *
      * @return bool
      */
-    public static function isMajor(\Datetime $birthday)
-    {
+    public static function isMajor(\Datetime $birthday) {
         $dateNow = new \DateTime();
 
         $diffBetween = $birthday->diff($dateNow);
@@ -34,8 +33,7 @@ class DateTimeValidator
      *
      * @return bool
      */
-    public static function isPassed(\Datetime $date)
-    {
+    public static function isPassed(\Datetime $date) {
         $dateNow = new \DateTime();
 
         return ($date < $dateNow) ? true : false;
@@ -46,8 +44,7 @@ class DateTimeValidator
      *
      * @return bool
      */
-    public static function isFuture(\Datetime $date)
-    {
+    public static function isFuture(\Datetime $date) {
         $dateNow = new \DateTime();
 
         return ($date > $dateNow) ? true : false;
@@ -61,8 +58,7 @@ class DateTimeValidator
      *
      * @throws \Exception
      */
-    public static function isYear(\Datetime $date, $year)
-    {
+    public static function isYear(\Datetime $date, $year) {
         if(!is_int($year))
             throw new \Exception('The second parameter need to be a string');
 
@@ -77,8 +73,7 @@ class DateTimeValidator
      *
      * @throws \Exception
      */
-    public static function isMonth(\Datetime $date, $month)
-    {
+    public static function isMonth(\Datetime $date, $month) {
         if(!is_int($month))
             throw new \Exception('The second parameter need to be a integer');
 
@@ -93,12 +88,10 @@ class DateTimeValidator
      *
      * @throws \Exception
      */
-    public static function isDay(\Datetime $date, $day)
-    {
+    public static function isDay(\Datetime $date, $day) {
         if(!is_int($day))
             throw new \Exception('The second parameter need to be a integer');
 
         return ((int) $date->format('d') === $day) ? true : false;
     }
-
 }

@@ -23,12 +23,11 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function lengthEqual($string, $length)
-    {
+    public static function lengthEqual($string, $length) {
         if(!is_string($string) || !is_int($length))
             throw new \Exception('The two parameters need to be in a correct format');
 
-        return (mb_strlen($string) === $length) ? true :false;
+        return (mb_strlen($string) === $length) ? true : false;
     }
 
     /**
@@ -39,8 +38,7 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function lengthSuperior($string, $length)
-    {
+    public static function lengthSuperior($string, $length) {
         if(!is_string($string) || !is_int($length))
             throw new \Exception('The two parameters need to be in a correct format');
 
@@ -55,8 +53,7 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function lengthInferior($string, $length)
-    {
+    public static function lengthInferior($string, $length) {
         if(!is_string($string) || !is_int($length))
             throw new \Exception('The two parameters need to be in a correct format');
 
@@ -72,8 +69,7 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function lengthBetween($string, $min, $max)
-    {
+    public static function lengthBetween($string, $min, $max) {
         if(!is_string($string) || !is_int($min) || !is_int($max) )
             throw new \Exception('The two parameters need to be in a correct format');
 
@@ -87,8 +83,7 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function hasWhiteSpaceBeforeEnd($string)
-    {
+    public static function hasWhiteSpaceBeforeEnd($string) {
         if(!is_string($string))
             throw new \Exception('The parameter need  to be a string');
 
@@ -102,12 +97,10 @@ class StringValidator
      *
      * @throws \Exception
      */
-    public static function hasWhiteSpace($string)
-    {
+    public static function hasWhiteSpace($string) {
         if(!is_string($string))
             throw new \Exception('The parameter need  to be a string');
 
         return (count(explode(' ', $string)) > 2) ? true : false;
     }
-
 }
