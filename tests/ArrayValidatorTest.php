@@ -12,7 +12,7 @@ use \baybi\Validator\ArrayValidator;
 
 /**
  * Class ArrayValidatorTest
- * @package Tests\Steingate\Validator
+ * @package Tests\baybi\Validator
  */
 class ArrayValidatorTest extends \PHPUnit_Framework_TestCase
 {

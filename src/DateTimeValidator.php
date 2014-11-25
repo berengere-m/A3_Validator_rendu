@@ -8,6 +8,10 @@
 
 namespace baybi\Validator;
 
+/**
+ * Class DateTimeValidator
+ * @package baybi\Validator
+ */
 class DateTimeValidator
 {
 

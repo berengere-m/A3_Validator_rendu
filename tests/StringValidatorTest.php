@@ -12,7 +12,7 @@ use \baybi\Validator\StringValidator;
 
 /**
  * Class StringValidatorTest
- * @package Tests\Steingate\Validator
+ * @package Tests\baybi\Validator
  */
 class StringValidatorTest extends \PHPUnit_Framework_TestCase
 {

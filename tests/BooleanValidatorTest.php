@@ -12,7 +12,7 @@ use baybi\Validator\BooleanValidator;
 
 /**
  * Class BooleanValidatorTest
- * @package Tests\Steingate\Validator
+ * @package Tests\baybi\Validator
  */
 class BooleanValidatorTest extends \PHPUnit_Framework_TestCase
 {

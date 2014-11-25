@@ -12,7 +12,7 @@ use \baybi\Validator\IntegerValidator;
 
 /**
  * Class IntegerValidatorTest
- * @package Tests\Steingate\Validator
+ * @package Tests\baybi\Validator
  */
 class IntegerValidatorTest extends \PHPUnit_Framework_TestCase
 {

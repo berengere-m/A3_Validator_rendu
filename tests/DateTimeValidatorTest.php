@@ -12,7 +12,7 @@ use \baybi\Validator\DateTimeValidator;
 
 /**
  * Class DateTimeValidatorTest
- * @package Tests\Steingate\Validator
+ * @package Tests\baybi\Validator
  */
 class DateTimeValidatorTest extends \PHPUnit_Framework_TestCase
 {

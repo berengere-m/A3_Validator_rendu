@@ -12,7 +12,7 @@
          bootstrap="./vendor/autoload.php"
         >
     <testsuites>
-        <testsuite name="Steingate Validator Test Suite">
+        <testsuite name="baybi Validator Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>

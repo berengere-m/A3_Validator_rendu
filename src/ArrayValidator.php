@@ -10,7 +10,7 @@ namespace baybi\Validator;
 
 /**
  * Class ArrayValidator
- * @package Steingate\Validator
+ * @package baybi\Validator
  */
 class ArrayValidator
 {
